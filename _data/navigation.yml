@@ -1,0 +1,8 @@
+# main links
+main:
+  #  - title: "Algorithm"
+  #    url: /algorithm/
+  - title: "Category"
+    url: /category/
+  - title: "Posts"
+    url: /yearposts/
