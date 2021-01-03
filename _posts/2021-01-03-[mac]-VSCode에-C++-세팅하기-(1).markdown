@@ -24,22 +24,23 @@ VSCode는 가볍고 여러 운영체제와 언어에 호환 가능해 공부하�
 홈페이지에서 VSCode를 바로 설치해도 괜찮지만, 나중에 Package 관리 차원에서도, 다른 프로그램 설치할 때도 굉장히 편리하니 따라해보시기 바랍니다.<br>
 명령창/쉘에서 프로그램 다운로드가 익숙해지면 편한것도 편한거지만 개발자가 되었다는 느낌이 든답니다.
 
-mac은 `Homebrew`를 이용합니다.
+mac은 `Homebrew`를 이용합니다.<br>
+terminal에서 [링크](https://brew.sh/)의 명령어를 복사하여 실행합니다.
 
--   Homebrew 설치<br/>
-    terminal에서 [링크](https://brew.sh/)의 명령어를 복사하여 실행합니다.
-    ```jsx
-    // in terminal
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    ```
-    설치 확인
-    ```jsx
-    // in terminal
-    > brew --version
-    Homebrew 2.7.1
-    Homebrew/homebrew-core (git revision 7ceb74; last commit 2021-01-02)
-    Homebrew/homebrew-cask (git revision a2f80; last commit 2021-01-02)
-    ```
+```jsx
+// in terminal
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+설치 확인
+
+```jsx
+// in terminal
+> brew --version
+Homebrew 2.7.1
+Homebrew/homebrew-core (git revision 7ceb74; last commit 2021-01-02)
+Homebrew/homebrew-cask (git revision a2f80; last commit 2021-01-02)
+```
 
 ### VSCode 설치
 
