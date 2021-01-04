@@ -1,6 +1,6 @@
 ---
 layout: single
-title: '[mac] VSCode에 C++ 세팅하기 (1)'
+title: '[mac] VSCode에 C++ 세팅하기'
 date: 2021-01-03 19:13:16 +0900
 categories: mac setting
 ---
