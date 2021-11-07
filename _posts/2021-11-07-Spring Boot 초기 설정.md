@@ -2,7 +2,7 @@
 layout: single
 title: 'Spring Boot 초기 설정'
 date: 2021-11-07 17:31:00 +0900
-categories: springboot, project
+categories: springboot project
 
 ---
 
