@@ -51,14 +51,13 @@ Orchestrator는 Web API로 사용자 요청을 받아 적절한 서버에서 적
 
 3. ### Azure 둘러보기
 
-	1. compute
-	1. network : VPN, Load Balancer, Gateway, DNS 등 
-	1. storage : 내구성, 보안, 확장성
-	1. mobile : 푸쉬 알림 등
-	1. database
-	1. web : build / deploy / manage / scale
-	1. IoT : 데이터 분석, 모니터링
-	1. Big data : 오픈소스 클러스터 등
-	1. AI : 자연어 처리, vision, speech 등
-	1. DevOps : create, build pipeline to deploy application
+##### 3-1. 회원가입
+
+https://docs.microsoft.com/ko-kr/learn/modules/create-an-azure-account/
+
+4. ### 지식점검
+
+~~지식점검이 있네~~
+
+1. 거짓 2. 인터넷을 통해~ 3. 제한된 서비스 풀
 
