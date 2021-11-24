@@ -1,6 +1,6 @@
 ---
 layout: single
-title: MS Learn - Azure 네트워킹 서비스 살펴보기
+title: \[강의요약\] MS Learn - Azure 네트워킹 서비스 살펴보기
 date: 2021-11-24 23:55:00 +0900
 categories: Azure azure_fundamentals
 ---
