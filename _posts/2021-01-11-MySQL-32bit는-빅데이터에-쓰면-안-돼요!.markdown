@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 'mysql 32bit는 빅데이터에 쓰면 안 돼요!'
+title: 'The table is full과 mysql 32bit'
 date: 2021-01-11 01:34:00 +0900
 categories: database
 ---
@@ -26,7 +26,7 @@ alter table table_nm max_rows=10000000 avg_row_length=20480;
 
 ### 다시 오류발생 : 2013, Lost connection to MySQL server during query
 
-몇 번 삽입이 잘 되는 것을 보고 해결이 되었다고 생각했지만 보통 녀석이 아니었다.
+이후 몇 번 삽입이 잘 되었으나, 다시 오류가 발생한다.
 
 ![error2013.png](/assets/images/2021-01-11/2013-Lost Connection.png)
 `2013, Lost connection to MySQL server during query` 마치 서버 연결이 끊어진 듯 되어있었다.<br>
@@ -35,7 +35,7 @@ alter table table_nm max_rows=10000000 avg_row_length=20480;
 
 ![error08s01.png](/assets/images/2021-01-11/08S01 Communication link failure.png)
 
-조회도 안 된다! DB 재기동을 해보아도 마찬가지<br>
+갑자기 조회도 안 된다! DB 재기동을 해보아도 마찬가지<br>
 `which is outside the tablespace bounds` 라고 안내문이 발생한다.<br>
 분명 테이블 크기를 키웠는데 왜이럴까 검색해보니 MySQL 공식 자료에 이유가 나와있었다.
 
@@ -77,8 +77,7 @@ Linux에서 `ext2` 혹은 `낮은 버전의 os`에서는 단일 파일을 최대
 ### 여담
 
 [링크](https://stackoverflow.com/questions/51830318/mysql-error-1114-the-table-is-full)에서는 아예 32-bit를 쓰지 말라고 한다.
-아무래도 자료조사를 부족해서 얻어맞은 것 같다... 😭<br>
-빅데이터에서 NoSQL이 좋다는데, 이유를 확실히 알게 되면 포스팅 해봐야겠다.
+아무래도 자료조사를 부족해서 얻어맞은 것 같다... 😭
 
 ---
 

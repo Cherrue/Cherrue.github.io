@@ -66,8 +66,8 @@ popupWindow.resizeTo(500, 500);
 
 ### 여담
 
-[링크](https://bugs.chromium.org/p/chromium/issues/detail?id=2091) 에 가보면 "탭에서도 크기 고정을 할 수 있게 해줘!!" 라는 사람과 "징징대지마!" 라고 싸우는 사람들이 보입니다.<br>
-양쪽 다 이해는 갑니다만 제 생각은 top-level tabs에 보여지는 화면은 어떠한 화면 크기에도 예쁘게 보이도록 반응형 웹으로 만드는 것이 잘 만든 페이지라고 생각합니다.
+[링크](https://bugs.chromium.org/p/chromium/issues/detail?id=2091) 에 가보면 "탭에서도 크기 고정을 할 수 있게 해줘!!" 하는 사람과 반대하는 사람들이 보입니다.<br>
+양쪽 다 이해는 갑니다만 제 생각은 top-level tabs은 반응형 웹으로 만드는 것이 잘 만든 페이지라고 생각합니다.
 
 ---
 
