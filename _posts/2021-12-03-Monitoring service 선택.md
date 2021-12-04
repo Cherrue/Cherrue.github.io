@@ -1,7 +1,7 @@
 ---
 layout: single
 title: \[강의요약\] MS Learn - monitoring service 선택
-date: 2021-12-03 00:40:00 +0900
+date: 2021-12-03 23:40:00 +0900
 categories: Azure azure_fundamentals
 
 ---
