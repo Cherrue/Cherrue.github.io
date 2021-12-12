@@ -1,6 +1,6 @@
 ---
 layout: single
-title: [Linux] Windows PC에 Rocky Linux 설치
+title: \[Linux\] Windows PC에 Rocky Linux 설치하기
 date: 2021-12-13 00:48:00 +0900
 categories: Linux Infra
 ---
