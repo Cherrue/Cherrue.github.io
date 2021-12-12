@@ -5,11 +5,11 @@ date: 2021-12-13 00:48:00 +0900
 categories: Linux Infra
 ---
 
-Linux에 이거저거 테스트 하고 싶은데, AWS에서 돈이 부과되는 걸 보고 데탑에 Linux를 올리기로 했습니다.
+Linux에 이거저거 테스트 하다가, AWS에서 돈이 부과되는 걸 보고 개인 PC에 Linux를 설치해 굴리기로 했다.
 
-하지만 게임도 해야하고 문서 작업도 가끔 필요해서 Windows를 아예 버릴 순 없어서 멀티부트로 구성하기로 했습니다.
+하지만 게임도 해야하고 문서 작업도 가끔 필요하니 Windows를 아예 버릴 순 없어서 멀티부트로 구성하기로 결정했다.
 
-준비물은 8GB 이상의 USB입니다.
+준비물은 포맷 가능한 8GB 이상의 USB (이 글대로만 한다면 4GB도 가능)
 
 ### 1. 설치할 리눅스 선택
 
@@ -17,10 +17,10 @@ Linux에 이거저거 테스트 하고 싶은데, AWS에서 돈이 부과되는 
 - CentOS8 : 2021년 보증 만료 예정. RHEL의 다운스트림. 더이상 CentOS N은 출시되지 않음
 - CentOS stream : CentOS N을 대체하는 RHEL의 업스트림. 쉽게 말하면 RHEL의 베타 버전
 - Ubuntu : debian 계열의 linux
-- Oracle Linux : Oracle에서 출시한 RHEL의 복제 리눅스. 무료긴 한데 오라클.
-- Rocky Linux : CentOS를 주도했던 아저씨가 진행하는 프로젝트. 마찬가지로 RHEL의 복제 리눅스. stable 버전까지 출시 완료
+- Oracle Linux : Oracle에서 출시한 RHEL의 복제 리눅스. 무료긴 한데 오라클이라 언젠가 유료화가 될지도?
+- Rocky Linux : CentOS를 주도했던 아저씨가 진행하는 프로젝트. 마찬가지로 RHEL의 복제 리눅스. stable 버전도 출시
 
-회사에서 CentOS7을 쓰고 있어서 CentOS 계열을 사용하려는데, CentOS Stream 때문에 애매해졌다.
+회사에서 CentOS7을 쓰고 있어서 RHEL 계열을 사용하려는데, CentOS Stream 때문에 애매해졌다.
 
 아무래도 Oracle은 언제 유료화 할 지 몰라서 gregory krutzer가 진행하는 Rocky를 쓰기로 했다.
 
@@ -53,9 +53,11 @@ Linux에 이거저거 테스트 하고 싶은데, AWS에서 돈이 부과되는 
 - 디스크 정리 : 시작 > 디스크 정리 > 시스템 파일 정리 > 전체 정리
 - 시스템 파일 압축 : cmd 에서 CompactOs /CompactOs:query로 확인하고 CompactOs /CompactOs:always
 
+CompactOs는 간단히 말하면 windows 폴더를 압축하는 것으로, 성능 저하는 거의 없으면서 1.6~2.0배 압축을 한다. 
+
 3-2. 볼륨 축소
 
-시작 > 파티션 검색
+시작 > 파티션 검색 > 원하는 디스크 우클릭 > 볼륨 축소 > 원하는 만큼 용량 입력 (나는 60GB 입력했다)
 
 ![partition1](/assets/images/2021-12-12/partition1.PNG)
 
@@ -75,11 +77,11 @@ Linux에 이거저거 테스트 하고 싶은데, AWS에서 돈이 부과되는 
 
   Server로 선택하면 GNOME(gui) 등을 추가 설정할 수 있다. 보통은 minimal만 해도 충분하다.
 
-- Installation Destination : 아까 축소해준 빈 공간 선택
+- Installation Destination : 아까 축소한 공간 선택
 
-- Network & Host Name : 실수로 설정을 안 했는데, 이더넷 케이블이 붙어있다면 여기서 잡아주고 가자
+- Network & Host Name : 나는 실수로 설정을 안 했는데, 이더넷 케이블이 붙어있다면 여기서 잡아주고 가자.
 
-- Root Password는 설정하지 않으면 넘어가지 않는다.
+- Root Password는 꼭 설정해야 설치가 진행된다.
 
 4-3. 설치 완료 확인
 
@@ -87,6 +89,7 @@ Linux에 이거저거 테스트 하고 싶은데, AWS에서 돈이 부과되는 
 
   ```bash
   $ cat /etc/*release
+  
   Rocky Linux release 8.5 (Green Obsidian)
   NAME="Rocky Linux"
   VERSION="8.5 (Green Obsidian)"
@@ -110,6 +113,7 @@ Linux에 이거저거 테스트 하고 싶은데, AWS에서 돈이 부과되는 
 
   ```bash
   $ whereis python
+  
   python: /usr/lib/python3.6 /usr/lib64/python3.6 /usr/include/python3.6m /usr/share/man/man1/python.1.gz
   ```
 
@@ -125,7 +129,7 @@ Linux에 이거저거 테스트 하고 싶은데, AWS에서 돈이 부과되는 
 
 5-3. windows가 깔린 파티션 이름 확인 : ls -l 입력하여 윈도우가 깔린 하드웨어에 좀 작은 파티션 이름을 기억한다
 
-나같은 경우는 아래에서 hd,msdos01이다.
+나같은 경우는 아래에서 hd,msdos01이다. 뭔가 찝찝해서 uuid는 가렸다.
 
 ![hd_list](/assets/images/2021-12-12/hd_list.jpg)
 
