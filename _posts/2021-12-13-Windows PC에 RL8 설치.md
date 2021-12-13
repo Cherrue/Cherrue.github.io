@@ -162,4 +162,4 @@ menuentry "Windows 10" {
 
 이제 파워만 바꿔달면 피시를 안 끄고 살아도 될 것 같다.
 
-다음 글에서 추가적인 리눅스 설정을 잡아주도록 하겠다.
+[다음 글](https://cherrue.github.io/linux/infra/RL-%EC%84%A4%EC%B9%98-%ED%9B%84-%EC%B4%88%EA%B8%B0-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0/)에서 추가적인 리눅스 설정을 잡아주도록 하겠다.
