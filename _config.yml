@@ -63,7 +63,7 @@ defaults:
 comments:
   provider: "disqus"
   disqus:
-    shortname: cherrue-github-io.disqus.com
+    shortname: "cherrue-github-io"
 
 og_image: "/assets/images/og_image.jpg"
 
@@ -227,6 +227,6 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: Asia/Seoul
