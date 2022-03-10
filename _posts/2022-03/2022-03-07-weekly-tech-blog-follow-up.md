@@ -106,7 +106,7 @@ Amazon Prime Video의 퀄리티 검수 인공지능 18개 중 세 가지 소개
 
 <summary>포스팅 요약 보기</summary>
 
-<div markdown=”1”>
+<div markdown="1">
 
 ### 개요
 
