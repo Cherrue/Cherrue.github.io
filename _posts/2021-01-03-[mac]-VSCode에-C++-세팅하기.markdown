@@ -21,7 +21,7 @@ VSCode는 가볍고 여러 운영체제와 언어에 호환 가능해 공부하�
 
 ---
 
-### 설치 툴 설치하기
+## 설치 툴 설치하기
 
 말이 이상하지만 설치하기 위한 설치 툴을 설치합니다.<br>
 홈페이지에서 VSCode를 바로 설치해도 괜찮지만, 나중에 Package 관리 차원에서도, 다른 프로그램 설치할 때도 굉장히 편리하니 따라해보시기 바랍니다.<br>
@@ -45,7 +45,7 @@ Homebrew/homebrew-core (git revision 7ceb74; last commit 2021-01-02)
 Homebrew/homebrew-cask (git revision a2f80; last commit 2021-01-02)
 ```
 
-### VSCode 설치
+## VSCode 설치
 
 brew는 항상 업데이트를 하고 쓰시기 바랍니다.<br>
 brew cask 설치 방식이 brew cask install → brew install —cask로 바뀌었습니다.
@@ -61,7 +61,7 @@ vscode를 실행하고 ⇧⌘P를 입력하면 명령 팔레트가 나옵니다(
 ![shellcommand](/assets/images/2021-01-03/2021-01-03-shellcommand.png)
 shell command라고 검색하고 PATH에 'code'명령 설치로 명령어 적용이 가능합니다.
 
-### 컴파일러/디버거 설치
+## 컴파일러/디버거 설치
 
 mac 이라면 컴파일러는 모두 설치 되어있습니다.
 
@@ -93,7 +93,7 @@ lldb는 xcode를 설치한 적이 있다면 같이 딸려 들어옵니다.<br>
 (lldb)
 ```
 
-### VSCode Extension 설치
+## VSCode Extension 설치
 
 ![CPPExtension](/assets/images/2021-01-03/2021-01-03-c++extension.png)
 
@@ -101,7 +101,7 @@ lldb는 xcode를 설치한 적이 있다면 같이 딸려 들어옵니다.<br>
 
 확장프로그램 탭에서 C/C++과 lldb를 검색하여 위 확장 프로그램들을 설치합니다.
 
-### 디버깅 환경 설정
+## 디버깅 환경 설정
 
 `.vscode` 경로를 만들고 밑에 `launch.json`, `tasks.json` 파일을 만듭니다.
 
@@ -172,7 +172,7 @@ task에 빌드가, launch에 디버깅이 붙었다고 보시면 됩니다.<br>
 저는 푼 소스코드를 github에 올릴 때 .gitignore 설정을 편하게 하기 위해 이렇게했습니다.<br>
 이제 fn+F5 또는 F5 또는 메뉴바>실행>디버깅 시작으로 디버깅이 가능합니다.
 
-### 디버깅 해보기
+## 디버깅 해보기
 
 ![LLDBExtension](/assets/images/2021-01-03/2021-01-03-debug.png)
 

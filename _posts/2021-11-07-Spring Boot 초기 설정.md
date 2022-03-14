@@ -7,7 +7,7 @@ categories: project drama_vote_platform
 
 # Spring Boot 초기 설정
 
-### spring boot 시작
+## spring boot 시작
 
 spring boot 프로젝트는 https://start.spring.io 에서 쉽게 만들 수 있다.
 
@@ -17,7 +17,7 @@ spring boot 프로젝트는 https://start.spring.io 에서 쉽게 만들 수 있
 
 
 
-### 라이브러리 추가
+## 라이브러리 추가
 
 1. 로그 라이브러리 : slf4j + log4j2
    - slf4j : 로깅 라이브러리의 인터페이스 모듈. 로깅 라이브러리를 log4j2, logback 등을 바꿔야 할 때 굉장히 쉽게 이관이 가능하다
@@ -33,7 +33,7 @@ spring boot 프로젝트는 https://start.spring.io 에서 쉽게 만들 수 있
 
 
 
-### 테스트 API 작성
+## 테스트 API 작성
 
 1. 컨트롤러 작성 : MVC의 컨트롤러 담당
 
@@ -77,7 +77,7 @@ spring boot 프로젝트는 https://start.spring.io 에서 쉽게 만들 수 있
    }
    ```
 
-### 테스트
+## 테스트
 
 ```java
 $ curl localhost:8082/drama/test

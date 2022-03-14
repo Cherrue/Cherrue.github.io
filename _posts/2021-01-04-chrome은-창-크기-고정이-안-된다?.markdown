@@ -1,14 +1,12 @@
 ---
 layout: single
-title: \[JavaScript\] chrome은 창 크기 고정이 안 된다?
+title: \[JavaScript\] 브라우저 창 크기 고정
 date: 2021-01-04 20:34:00 +0900
 categories: javascript
 toc: true
 toc_sticky: true
 toc_label: Contents
 ---
-
-### 브라우저 창크기 고정
 
 웹 개발을 하다보면 사용자에게 좋은 UI를 위해 브라우저 크기를 고정하고 싶을 때가 있습니다.<br>
 특히 팝업창은 만들다보면 딱 예쁜 크기가 정해져있을 때가 많습니다.<br>
@@ -24,7 +22,7 @@ $(window).resize(function () {
 하지만 이대로 따라해보면 `chromium` 기반의 브라우저에서는 동작하지 않는 것을 알 수 있습니다.<br>
 (IE에서는 잘 동작합니다!)
 
-### 왜 동작하지 않을까?
+# 왜 동작하지 않을까?
 
 요즘의 브라우저들은 대부분 `chromium` 기반으로 이루어져있습니다.<br>
 이 친구는 사용자 친화적인 UI/UX를 목표로 개발되었습니다.<br>
@@ -32,7 +30,7 @@ $(window).resize(function () {
 그래서 `chromium`은 강제로 resize를 하거나 다른 탭으로 이동시키는 것이 불가능합니다.<br>
 사실 여러 웹페이지가 열려있는데 그 페이지가 크기를 제어할 수 있다면 크기가 마구 변할 수 있으니 이해도 갑니다.
 
-### 그럼 어떻게 해야할까?
+## 그럼 어떻게 해야할까?
 
 특정 웹페이지가 사용자의 탭 크기를 강제할 수 없다는 것은 알았습니다.<br>
 하지만 팝업창은 다릅니다!<br>
@@ -62,15 +60,10 @@ popupWindow.resizeTo(500, 500);
 </html>
 ```
 
-### 위 내용을 test.html로 만들고 크롬에서 열어보면 팝업창의 크기가 고정됩니다!
+**위 내용을 test.html로 만들고 크롬에서 열어보면 팝업창의 크기가 고정됩니다!**
 
 (팝업 허용이 필요합니다)
 ![고정창.gif](/assets/images/2021-01-04/20210104-chrome-resize.gif)
-
-### 여담
-
-[링크](https://bugs.chromium.org/p/chromium/issues/detail?id=2091) 에 가보면 "탭에서도 크기 고정을 할 수 있게 해줘!!" 하는 사람과 반대하는 사람들이 보입니다.<br>
-양쪽 다 이해는 갑니다만 제 생각은 top-level tabs은 반응형 웹으로 만드는 것이 잘 만든 페이지라고 생각합니다.
 
 ---
 

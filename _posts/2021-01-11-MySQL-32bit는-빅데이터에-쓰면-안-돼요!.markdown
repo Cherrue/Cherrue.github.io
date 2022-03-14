@@ -1,11 +1,11 @@
 ---
 layout: single
-title: 'The table is full과 mysql 32bit'
+title: \[SQL\] The table is full과 mysql 32bit
 date: 2021-01-11 01:34:00 +0900
 categories: database
 ---
 
-### 오류발생 : 1114, The table is full
+# 오류발생 : 1114, The table is full
 
 새로운 DB서버와 함께 새로운 프로젝트를 하던 중 생소한 에러를 만났다
 
@@ -15,7 +15,7 @@ categories: database
 데이터 양은 약 4GB. 전혀 많은 양은 아니었다.<br>
 아무래도 이상해 MySQL 공식 자료를 보니 32bit MySQL의 default 테이블 크기는 4GB라고 되어있다.
 
-### 테이블 크기 제한을 늘리자
+## 테이블 크기 제한을 늘리자
 
 ```jsx
 alter table table_nm max_rows=10000000 avg_row_length=20480;
@@ -24,7 +24,7 @@ alter table table_nm max_rows=10000000 avg_row_length=20480;
 위 쿼리는 1000,0000줄 \* 20480 Byte로 테이블 크기를 키워준다.<br>
 어림잡아 200GB로 키우고 다시 데이터를 삽입하니 잘 되는 것 처럼 보였다.
 
-### 다시 오류발생 : 2013, Lost connection to MySQL server during query
+## 다시 오류발생 : 2013, Lost connection to MySQL server during query
 
 이후 몇 번 삽입이 잘 되었으나, 다시 오류가 발생한다.
 
@@ -39,7 +39,7 @@ alter table table_nm max_rows=10000000 avg_row_length=20480;
 `which is outside the tablespace bounds` 라고 안내문이 발생한다.<br>
 분명 테이블 크기를 키웠는데 왜이럴까 검색해보니 MySQL 공식 자료에 이유가 나와있었다.
 
-### MySQL-32bit의 테이블 크기는 4GB가 최대
+**MySQL-32bit의 테이블 크기는 4GB가 최대**
 
 이 프로젝트 환경에서는 아까 확인한 테이블 크기 제한을 32bit에서 더 늘릴 수가 없었다.<br>
 그 이유는
@@ -73,11 +73,6 @@ Linux에서 `ext2` 혹은 `낮은 버전의 os`에서는 단일 파일을 최대
 
 이제 수집한 데이터들의 핸들링은 Hadoop에서 진행하고,<br>
 분석 결과 등 시각화 할 필요가 있는 자료나, 사용자에게 서비스 할 데이터만 MySQL에 담을 예정이다.
-
-### 여담
-
-[링크](https://stackoverflow.com/questions/51830318/mysql-error-1114-the-table-is-full)에서는 아예 32-bit를 쓰지 말라고 한다.
-아무래도 자료조사를 부족해서 얻어맞은 것 같다... 😭
 
 ---
 

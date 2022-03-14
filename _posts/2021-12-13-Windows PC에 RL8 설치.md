@@ -14,7 +14,7 @@ Linux에 이거저거 테스트 하다가, AWS에서 돈이 부과되는 걸 보
 
 준비물은 포맷 가능한 8GB 이상의 USB (이 글대로만 한다면 4GB도 가능)
 
-### 1. 설치할 리눅스 선택
+# 1. 설치할 리눅스 선택
 
 - CentOS7 : 2024년 보증 만료 예정. RHEL의 다운스트림
 - CentOS8 : 2021년 보증 만료 예정. RHEL의 다운스트림. 더이상 CentOS N은 출시되지 않음
@@ -27,7 +27,7 @@ Linux에 이거저거 테스트 하다가, AWS에서 돈이 부과되는 걸 보
 
 아무래도 Oracle은 언제 유료화 할 지 몰라서 gregory krutzer가 진행하는 Rocky를 쓰기로 했다.
 
-### 2. 부팅 USB 만들기
+# 2. 부팅 USB 만들기
 
 2-1. 이미지 설치 : [https://rockylinux.org/download](https://rockylinux.org/download) 에서 x86_64의 minimal로 설치
 
@@ -49,7 +49,7 @@ Linux에 이거저거 테스트 하다가, AWS에서 돈이 부과되는 걸 보
 
 ![bootingusb3](/assets/images/2021-12-12/bootingusb3.PNG)
 
-### 3. 볼륨 축소
+# 3. 볼륨 축소
 
 3-1. 용량 확보
 
@@ -64,7 +64,7 @@ CompactOs는 간단히 말하면 windows 폴더를 압축하는 것으로, 성�
 
 ![partition1](/assets/images/2021-12-12/partition1.PNG)
 
-### 4. 이미지 설치
+# 4. 이미지 설치
 
 4-1. 부팅 옵션 변경 : 재부팅 > bios 진입 > boot > 부팅 우선순위 변경(usb를 1순위)
 
@@ -122,7 +122,7 @@ CompactOs는 간단히 말하면 windows 폴더를 압축하는 것으로, 성�
 
   RHEL 8.4 기반이기 때문에 python3이 기본으로 설치된다.
 
-### 5. 멀티부팅 설정
+# 5. 멀티부팅 설정
 
 5-1. boot priority 변경 : 재부팅 > bios > 기존 하드디스크로 변경
 
