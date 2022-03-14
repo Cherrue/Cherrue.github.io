@@ -3,6 +3,9 @@ layout: single
 title: AZ-900 Azure Fundamentals 취득 후기
 date: 2021-12-12 21:21:00 +0900
 categories: Azure azure_fundamentals
+toc: true
+toc_sticky: true
+toc_label: Contents
 ---
 
 ### 1. 학습 방법

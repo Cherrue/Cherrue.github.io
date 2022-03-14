@@ -1,8 +1,11 @@
 ---
 layout: single
-title: '한글 인코딩 UTF-8 vs EUC-KR'
+title: \[기타\] 한글 인코딩 UTF-8 vs EUC-KR
 date: 2021-01-24 20:34:00 +0900
 categories: setting
+toc: true
+toc_sticky: true
+toc_label: Contents
 ---
 
 ### 한글 인코딩

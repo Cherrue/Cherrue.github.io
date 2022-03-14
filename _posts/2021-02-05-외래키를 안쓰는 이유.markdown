@@ -1,8 +1,11 @@
 ---
 layout: single
-title: '외래키를 안 쓰는 3가지 이유'
+title: \[SQL\] 외래키를 안 쓰는 3가지 이유
 date: 2021-02-05 01:09:00 +0900
 categories: database
+toc: true
+toc_sticky: true
+toc_label: Contents
 ---
 
 제가 일하는 회사도 그렇고 여러 프로젝트를 보면 대부분 `외래키`를 사용하지 않습니다.<br/>

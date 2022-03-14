@@ -1,8 +1,11 @@
 ---
 layout: single
-title: 'chrome은 창 크기 고정이 안 된다?'
+title: \[JavaScript\] chrome은 창 크기 고정이 안 된다?
 date: 2021-01-04 20:34:00 +0900
 categories: javascript
+toc: true
+toc_sticky: true
+toc_label: Contents
 ---
 
 ### 브라우저 창크기 고정
