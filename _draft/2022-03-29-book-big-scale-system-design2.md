@@ -1,3 +1,5 @@
+수빈 정리 링크 : https://scalloped-aletopelta-6a1.notion.site/7-11-5baf745c4bc748ab9c43af9aff41a95f
+
 # 7장. 분산 시스템을 위한 유일 ID 생성기 설계
 
 ## 1. 유일 ID 생성 방법
