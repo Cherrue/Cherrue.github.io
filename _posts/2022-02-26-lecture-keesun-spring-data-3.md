@@ -207,7 +207,7 @@ hget(hash get) 으로 호출, 뒤에 필드명을 적어주어야 한다.
 application.properties에서 spring.redis.* 변경
 
 - spring.redis.port=6379
-- spring.redis.url={{ remote ip }}
+- spring.redis.url={ remote ip }
 
 ---
 
@@ -249,7 +249,7 @@ switched to db test
 
 10-3. 사용하기
 
-엔티티에 @Document(collection={{ 원하는 컬렉션 명 }}) 사용
+엔티티에 @Document(collection={ 원하는 컬렉션 명 }) 사용
 
 - collection = RDB의 테이블명과 유사 개념
 
