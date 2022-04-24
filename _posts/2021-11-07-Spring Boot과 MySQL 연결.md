@@ -3,7 +3,7 @@ layout: single
 title: \[강의요약\] 스프링부트 개념과 활용 - Spring Boot MySQL 연결
 date: 2021-11-07 19:31:00 +0900
 categories: project drama_vote_platform
-
+show_in_home: false
 
 ---
 

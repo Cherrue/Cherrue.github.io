@@ -7,6 +7,7 @@ categories: lecture_summary springboot springboot_getting_started
 toc: true
 toc_sticky: true
 toc_label: Contents
+show_in_home: false
 
 ---
 

@@ -3,6 +3,7 @@ layout: single
 title: \[강의요약\] MS Learn - Azure 기본사항 파트 1 핵심 Azure 개념
 date: 2021-11-07 19:31:00 +0900
 categories: Azure azure_fundamentals
+show_in_home: false
 ---
 
 # Azure 기본사항

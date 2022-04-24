@@ -6,6 +6,7 @@ categories: lecture_summary springboot springboot_getting_started
 toc: true
 toc_sticky: true
 toc_label: Contents
+show_in_home: false
 ---
 
 개인적인 학습을 위한 [Inflearn - 스프링부트 개념과 활용](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8/dashboard)(백기선) 강의 요약입니다.

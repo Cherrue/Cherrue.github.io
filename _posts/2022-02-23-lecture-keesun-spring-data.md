@@ -6,6 +6,7 @@ categories: lecture_summary springboot springboot_getting_started
 toc: true
 toc_sticky: true
 toc_label: Contents
+show_in_home: false
 ---
 
 개인적인 학습을 위한 [Inflearn - 스프링부트 개념과 활용](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8/dashboard)(백기선) 강의 요약입니다.
@@ -246,7 +247,7 @@ cherrue@localhost를 추가하거나, localhost가 아니라 외부에서 접근
 
 ```bash
 # application.properties
-spring.datasource.url=jdbc:mysql://{{ 내부 IP }}:3306/springboot
+spring.datasource.url=jdbc:mysql://{ 내부 IP }:3306/springboot
 spring.datasource.username=cherrue
 spring.datasource.password=pass
 ```
@@ -258,8 +259,8 @@ spring.datasource.password=pass
 2022-02-22 00:02:57.516  INFO 33046 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
 2022-02-22 00:02:57.823  INFO 33046 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
 class com.zaxxer.hikari.HikariDataSource
-jdbc:mysql://{{ 내부 IP }}:3306/springboot
-cherrue@{{ 외부 IP }}
+jdbc:mysql://{ 내부 IP }:3306/springboot
+cherrue@{ 외부 IP }
 ```
 
 ❗ MySQL은 상용으로 쓰면 라이센스 비용 + GPL이라 소스 공개 필요. 무료가 필요하면 MariaDB 사용. <br/>

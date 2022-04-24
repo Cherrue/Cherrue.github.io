@@ -3,6 +3,7 @@ layout: single
 title: \[강의요약\] MS Learn - Azure 네트워킹 서비스 살펴보기
 date: 2021-11-24 23:55:00 +0900
 categories: Azure azure_fundamentals
+show_in_home: false
 ---
 
 자격증 AZ-900 : Azure Fundamentals 취득을 위한 학습 과정 요약입니다.
