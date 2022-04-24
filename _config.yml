@@ -111,7 +111,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
+  # - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -119,7 +119,7 @@ plugins:
 
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-paginate
+  # - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
@@ -228,6 +228,6 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 10 # amount of posts to show
-paginate_path: /page:num/
+# paginate: 10 # amount of posts to show
+# paginate_path: /page:num/
 timezone: Asia/Seoul
