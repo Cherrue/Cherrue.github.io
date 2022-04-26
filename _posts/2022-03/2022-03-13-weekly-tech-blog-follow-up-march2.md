@@ -18,7 +18,7 @@ F/U 하는 기술 블로그 목록은 [이 링크](https://cherrue.github.io/eng
 
 # [NHN Cloud MeetUp!](https://meetup.toast.com/)
 
-## **[Speech to Text 서비스 소개](https://meetup.toast.com/posts/313)**
+## [Speech to Text 서비스 소개](https://meetup.toast.com/posts/313)
 
 | 게시일 | 분류 | 주요 기술 |
 | --- | --- | --- |
@@ -26,7 +26,7 @@ F/U 하는 기술 블로그 목록은 [이 링크](https://cherrue.github.io/eng
 
 NHN Cloud 기능 소개 1. 음성 파일(mp3, aac, wav 등) 업로드 시 텍스트 반환 REST API
 
-## **[Text to Speech 서비스 소개](https://meetup.toast.com/posts/314)**
+## [Text to Speech 서비스 소개](https://meetup.toast.com/posts/314)
 
 | 게시일 | 분류 | 주요 기술 |
 | --- | --- | --- |
@@ -40,7 +40,7 @@ NHN Cloud 기능 소개 2. 텍스트 입력 시 음소 단위 음성 합성으�
 
 # [Google Developers](https://developers.googleblog.com/)
 
-## ****[Celebrating global women in tech and trailblazers](https://developers.googleblog.com/2022/03/whm22.html)****
+## [Celebrating global women in tech and trailblazers](https://developers.googleblog.com/2022/03/whm22.html)
 
 | 게시일 | 분류 | 주요 기술 |
 | --- | --- | --- |
@@ -48,7 +48,7 @@ NHN Cloud 기능 소개 2. 텍스트 입력 시 음소 단위 음성 합성으�
 
 Women’s History Month 를 맞아 여성 Google Developer Experts 인터뷰
 
-## ****[Machine Learning Communities: Q4 ‘21 highlights and achievements](https://developers.googleblog.com/2022/03/Q4mlhighlight.html)****
+## [Machine Learning Communities: Q4 ‘21 highlights and achievements](https://developers.googleblog.com/2022/03/Q4mlhighlight.html)
 
 | 게시일 | 분류 | 주요 기술 |
 | --- | --- | --- |
@@ -64,7 +64,7 @@ Women’s History Month 를 맞아 여성 Google Developer Experts 인터뷰
 
 # [Amazon Science Blog](https://www.amazon.science/blog)
 
-## **[25 years of QIP](https://www.amazon.science/blog/25-years-of-qip)**
+## [25 years of QIP](https://www.amazon.science/blog/25-years-of-qip)
 
 | 게시일 | 분류 | 주요 기술 |
 | --- | --- | --- |
@@ -84,7 +84,7 @@ QIP(Quantum Information Processing) 25주년 기념 `Thomas Vidick` 교수와 `S
 
 # [Linked in Engineering](https://engineering.linkedin.com/blog)
 
-## **[Performance-Adaptive Sampling Strategy (PASS) for GNNs: Open sourcing PASS](https://engineering.linkedin.com/blog/2022/open-sourcing-PASS)**
+## [Performance-Adaptive Sampling Strategy (PASS) for GNNs: Open sourcing PASS](https://engineering.linkedin.com/blog/2022/open-sourcing-PASS)
 
 | 게시일 | 분류 | 주요 기술 |
 | --- | --- | --- |
@@ -96,7 +96,7 @@ QIP(Quantum Information Processing) 25주년 기념 `Thomas Vidick` 교수와 `S
 
 # [Engineering at Meta](https://engineering.fb.com/)
 
-## **[Augmenting Flexible Paxos in LogDevice to improve read availability](https://engineering.fb.com/2022/03/07/core-data/augmenting-flexible-paxos-logdevice/)**
+## [Augmenting Flexible Paxos in LogDevice to improve read availability](https://engineering.fb.com/2022/03/07/core-data/augmenting-flexible-paxos-logdevice/)
 
 | 게시일 | 분류 | 주요 기술 |
 | --- | --- | --- |
@@ -108,7 +108,7 @@ Meta의 데이터 저장 시스템 LogDevice에 적용한 Flexible Paxos에 대�
 
 기술적인 특징인지 설명하는 단어들이 너무 추상적이라 이해하기 어려운데, 설명하려고 애쓴 흔적이 보인다.
 
-## (추천) **[An open source compositional deadlock detector for Android Java](https://engineering.fb.com/2022/03/08/android/deadlock-detector-for-android-java/)**
+## (추천) [An open source compositional deadlock detector for Android Java](https://engineering.fb.com/2022/03/08/android/deadlock-detector-for-android-java/)
 
 | 게시일 | 분류 | 주요 기술 |
 | --- | --- | --- |
@@ -162,7 +162,7 @@ abstract 환경에서 deadlock을 탐지하는 방법을 설명한 [paper](https
 
 </details>
 
-## **[Code Verify: An open source browser extension for verifying code authenticity on the web](https://engineering.fb.com/2022/03/10/security/code-verify/)**
+## [Code Verify: An open source browser extension for verifying code authenticity on the web](https://engineering.fb.com/2022/03/10/security/code-verify/)
 
 | 게시일 | 분류 | 주요 기술 |
 | --- | --- | --- |
@@ -178,7 +178,7 @@ WhatsApp 웹 버전이 공개되면서 메세지 보안에 대한 문제가 대�
 
 # [slack engineering](https://slack.engineering/)
 
-## ****[Applying Product Thinking to Slack’s Internal Compute Platform](https://slack.engineering/applying-product-thinking-to-slacks-internal-compute-platform/)****
+## [Applying Product Thinking to Slack’s Internal Compute Platform](https://slack.engineering/applying-product-thinking-to-slacks-internal-compute-platform/)
 
 | 게시일 | 분류 | 주요 기술 |
 | --- | --- | --- |

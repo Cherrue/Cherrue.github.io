@@ -20,7 +20,7 @@ F/U 하는 기술 블로그 목록은 [이 링크](https://cherrue.github.io/eng
 
 # [NHN Cloud MeetUp!](https://meetup.toast.com/)
 
-## **[JavaScipt Symbol의 근황](https://meetup.toast.com/posts/312)**
+## [JavaScipt Symbol의 근황](https://meetup.toast.com/posts/312)
 
 | 게시일 | 분류 | 주요 기술 |
 | --- | --- | --- |
@@ -32,7 +32,7 @@ ES2015에 추가되었으나, 잘 쓰이지 않는 Symbol 의 현실 개발 활�
 
 # [LINE Engineering](https://engineering.linecorp.com/ko/blog/)
 
-## ****[LINE Open Source Sprint 2021: 오픈소스에 잘 기여하는 문화 만들기](https://engineering.linecorp.com/ko/blog/line-open-source-sprint-2021-recap/)****
+## [LINE Open Source Sprint 2021: 오픈소스에 잘 기여하는 문화 만들기](https://engineering.linecorp.com/ko/blog/line-open-source-sprint-2021-recap/)
 
 | 게시일 | 분류 | 주요 기술 |
 | --- | --- | --- |
@@ -40,7 +40,7 @@ ES2015에 추가되었으나, 잘 쓰이지 않는 Symbol 의 현실 개발 활�
 
 짧은 기간 동안 LINE의 오픈소스에 기여하는 행사인 오픈소스 스프린트의 소개와 결과 공유
 
-## ****[LINE 앱의 다자간 대화 기능 통합](https://engineering.linecorp.com/ko/blog/line-app-group-talk/)****
+## [LINE 앱의 다자간 대화 기능 통합](https://engineering.linecorp.com/ko/blog/line-app-group-talk/)
 
 | 게시일 | 분류 | 주요 기술 |
 | --- | --- | --- |
@@ -52,7 +52,7 @@ LINE의 “여러 명과의 대화" 기능과 “그룹” 기능을 통합하�
 
 # [kakao Tech](https://tech.kakao.com/blog/)
 
-## ****[FE개발자의 성장 스토리 12 : Angular E2E 테스팅 경험기](https://tech.kakao.com/2022/02/22/angular-e2e-testing/)****
+## [FE개발자의 성장 스토리 12 : Angular E2E 테스팅 경험기](https://tech.kakao.com/2022/02/22/angular-e2e-testing/)
 
 | 게시일 | 분류 | 주요 기술 |
 | --- | --- | --- |
@@ -64,7 +64,7 @@ Angular 프로젝트에 Cypress를 이용해 E2E 테스트 적용하고 테스�
 
 # [야놀자](https://medium.com/yanolja/archive)
 
-## ****[[야놀자 R&D] 프리미엄 여가 서비스를 주도하는, 데일리R&D유닛](https://medium.com/yanolja/%EC%95%BC%EB%86%80%EC%9E%90-r-d-%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84-%EC%97%AC%EA%B0%80-%EC%84%9C%EB%B9%84%EC%8A%A4%EB%A5%BC-%EC%A3%BC%EB%8F%84%ED%95%98%EB%8A%94-%EB%8D%B0%EC%9D%BC%EB%A6%ACr-d%EC%9C%A0%EB%8B%9B-8cfb42a26ab7)****
+## [[야놀자 R&D] 프리미엄 여가 서비스를 주도하는, 데일리R&D유닛](https://medium.com/yanolja/%EC%95%BC%EB%86%80%EC%9E%90-r-d-%ED%94%84%EB%A6%AC%EB%AF%B8%EC%97%84-%EC%97%AC%EA%B0%80-%EC%84%9C%EB%B9%84%EC%8A%A4%EB%A5%BC-%EC%A3%BC%EB%8F%84%ED%95%98%EB%8A%94-%EB%8D%B0%EC%9D%BC%EB%A6%ACr-d%EC%9C%A0%EB%8B%9B-8cfb42a26ab7)
 
 | 게시일 | 분류 | 주요 기술 |
 | --- | --- | --- |
@@ -76,7 +76,7 @@ Angular 프로젝트에 Cypress를 이용해 E2E 테스트 적용하고 테스�
 
 # [Google Developers](https://developers.googleblog.com/)
 
-## ****[Google for Games Developer Summit returns March 15](https://developers.googleblog.com/2022/02/google-for-games-developer-summit.html)****
+## [Google for Games Developer Summit returns March 15](https://developers.googleblog.com/2022/02/google-for-games-developer-summit.html)
 
 | 게시일 | 분류 | 주요 기술 |
 | --- | --- | --- |
@@ -88,7 +88,7 @@ Angular 프로젝트에 Cypress를 이용해 E2E 테스트 적용하고 테스�
 
 # [Amazon Science Blog](https://www.amazon.science/blog)
 
-## **[What’s next for deep learning?](https://www.amazon.science/blog/whats-next-for-deep-learning)**
+## [What’s next for deep learning?](https://www.amazon.science/blog/whats-next-for-deep-learning)
 
 | 게시일 | 분류 | 주요 기술 |
 | --- | --- | --- |
@@ -105,7 +105,7 @@ Deep learning 이후 AI revolution 예측 : Symbolic reasoning & Interactive lea
 
 # [THE NETFLIX TECH BLOG](https://netflixtechblog.com/)
 
-## (추천) ****[Rapid Event Notification System at Netflix](https://netflixtechblog.com/rapid-event-notification-system-at-netflix-6deb1d2b57d1)****
+## (추천) [Rapid Event Notification System at Netflix](https://netflixtechblog.com/rapid-event-notification-system-at-netflix-6deb1d2b57d1)
 
 | 게시일 | 분류 | 주요 기술 |
 | --- | --- | --- |
@@ -119,7 +119,7 @@ Deep learning 이후 AI revolution 예측 : Symbolic reasoning & Interactive lea
 
 <summary>포스팅 요약 보기</summary>
 
-<div markdown=”1”>
+<div markdown="1">
 
 ### 개요
 
@@ -129,7 +129,7 @@ Deep learning 이후 AI revolution 예측 : Symbolic reasoning & Interactive lea
 
 ### 내용
 
-#### **Use cases**
+#### Use cases
 
 - Viewing Activity : 영상을 보고 있는가? 이벤트
 - Personalized Experience Refresh : 맞춤형 컨텐츠 추천이 끊임없이 업데이트 된다. 사용자에게는 언제 보내줄까
@@ -138,7 +138,7 @@ Deep learning 이후 AI revolution 예측 : Symbolic reasoning & Interactive lea
 - Member Profile 변경 : 프로필, 특히 성별이나 나이제한 등을 걸면 바로바로 반영되어야 한다.
 - System Diagnostic signals : 어플리케이션 troubleshoot을 위한 시스템 진단 정보 추적이 필요함
 
-#### **RENO 설계**
+#### RENO 설계
 
 > RENO : Rapid Event Notification System
 > 
@@ -192,7 +192,7 @@ RENO에서 사용한 높은 RPS 처리 최적화 방법 5개를 소개한다.
 4. Event 중복 제거 : 앱이 백그라운드에서 도는 경우 같은 이벤트를 여러버누 보내는 경우가 많아 제거한다.
 5. Bulkheaded delivery : 기기별로 다른 시스템을 통해 알림을 내보낸다.
 
-#### **실 적용 라이브러리**
+#### 실 적용 라이브러리
 
 Event Management Engine : Manhattan 프레임워크 사용
 

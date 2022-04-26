@@ -18,7 +18,7 @@ F/U 하는 기술 블로그 목록은 [이 링크](https://cherrue.github.io/eng
 
 # [LINE Engineering](https://engineering.linecorp.com/ko/blog/)
 
-## **[오래된 프로덕트 디자인 리뉴얼하기](https://engineering.linecorp.com/ko/blog/)**
+## [오래된 프로덕트 디자인 리뉴얼하기](https://engineering.linecorp.com/ko/blog/)
 
 | 게시일 | 분류 | 주요 기술 |
 | --- | --- | --- |
@@ -30,7 +30,7 @@ LINE에서 인수한 일본 배달 어플 Demaecan의 3단계의 리뉴얼 계�
 
 # [직방 TECH](https://medium.com/zigbang)
 
-## ****[Node.js와 Express환경에서 IP 화이트리스트, IP 블랙리스트 적용하기](https://medium.com/zigbang/node-js%EC%99%80-express%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-ip-%ED%99%94%EC%9D%B4%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8-ip-%EB%B8%94%EB%9E%99%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-32d810e6e4a7)****
+## [Node.js와 Express환경에서 IP 화이트리스트, IP 블랙리스트 적용하기](https://medium.com/zigbang/node-js%EC%99%80-express%ED%99%98%EA%B2%BD%EC%97%90%EC%84%9C-ip-%ED%99%94%EC%9D%B4%ED%8A%B8%EB%A6%AC%EC%8A%A4%ED%8A%B8-ip-%EB%B8%94%EB%9E%99%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-32d810e6e4a7)
 
 | 게시일 | 분류 | 주요 기술 |
 | --- | --- | --- |
@@ -38,7 +38,7 @@ LINE에서 인수한 일본 배달 어플 Demaecan의 3단계의 리뉴얼 계�
 
 Express와 express-ip-filter-middleware를 사용하여 IP를 차단/허용하는 코드 공유
 
-## ****[디더 투명도 셰이더를 만들어보자](https://medium.com/zigbang/%EB%94%94%EB%8D%94-%ED%88%AC%EB%AA%85%EB%8F%84-%EC%85%B0%EC%9D%B4%EB%8D%94%EB%A5%BC-%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EC%9E%90-98756735487e)****
+## [디더 투명도 셰이더를 만들어보자](https://medium.com/zigbang/%EB%94%94%EB%8D%94-%ED%88%AC%EB%AA%85%EB%8F%84-%EC%85%B0%EC%9D%B4%EB%8D%94%EB%A5%BC-%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EC%9E%90-98756735487e)
 
 | 게시일 | 분류 | 주요 기술 |
 | --- | --- | --- |
@@ -50,7 +50,7 @@ Dither Transparency와 알파 블렌딩을 소개하고, Unity의 Dither Functio
 
 # [Google Developers](https://developers.googleblog.com/)
 
-## ****[Students in LATAM come together for continent-wide tech conference](https://developers.googleblog.com/2022/02/students-in-latin-america-come-together.html)****
+## [Students in LATAM come together for continent-wide tech conference](https://developers.googleblog.com/2022/02/students-in-latin-america-come-together.html)
 
 | 게시일 | 분류 | 주요 기술 |
 | --- | --- | --- |
@@ -58,7 +58,7 @@ Dither Transparency와 알파 블렌딩을 소개하고, Unity의 Dither Functio
 
 2021년 11월에 진행한 라틴 아메리카 학생 개발자 컨퍼런스 참가자의 소감 모음
 
-## ****[Discontinuing authorization support for the Google Sign-In JavaScript Platform Library](https://developers.googleblog.com/2022/03/gis-jsweb-authz-migration.html)****
+## [Discontinuing authorization support for the Google Sign-In JavaScript Platform Library](https://developers.googleblog.com/2022/03/gis-jsweb-authz-migration.html)
 
 | 게시일 | 분류 | 주요 기술 |
 | --- | --- | --- |
@@ -70,7 +70,7 @@ Dither Transparency와 알파 블렌딩을 소개하고, Unity의 Dither Functio
 
 # [Amazon Science Blog](https://www.amazon.science/blog)
 
-## **[Improving question-answering models that use data from tables](https://www.amazon.science/blog/improving-question-answering-models-that-use-data-from-tables)**
+## [Improving question-answering models that use data from tables](https://www.amazon.science/blog/improving-question-answering-models-that-use-data-from-tables)
 
 | 게시일 | 분류 | 주요 기술 |
 | --- | --- | --- |
@@ -78,7 +78,7 @@ Dither Transparency와 알파 블렌딩을 소개하고, Unity의 Dither Functio
 
 테이블 기반의 질문-답변 모델의 fine tune 이전에 합성 데이터로 pre-train 하여 성능을 개선한 사례
 
-## **[How Prime Video uses machine learning to ensure video quality](https://www.amazon.science/blog/how-prime-video-uses-machine-learning-to-ensure-video-quality)**
+## [How Prime Video uses machine learning to ensure video quality](https://www.amazon.science/blog/how-prime-video-uses-machine-learning-to-ensure-video-quality)
 
 | 게시일 | 분류 | 주요 기술 |
 | --- | --- | --- |
@@ -94,7 +94,7 @@ Amazon Prime Video의 퀄리티 검수 인공지능 18개 중 세 가지 소개
 
 # [ebay Tech Blog](https://tech.ebayinc.com/)
 
-## (추천) **[Building a Deep Learning Based Retrieval System for Personalized Recommendations](https://tech.ebayinc.com/engineering/building-a-deep-learning-based-retrieval-system-for-personalized-recommendations/)**
+## (추천) [Building a Deep Learning Based Retrieval System for Personalized Recommendations](https://tech.ebayinc.com/engineering/building-a-deep-learning-based-retrieval-system-for-personalized-recommendations/)
 
 | 게시일 | 분류 | 주요 기술 |
 | --- | --- | --- |
@@ -167,7 +167,7 @@ ANN이 등장하며 KNN을 실시간으로 수행할 수 있다. KNN을 실시�
 
 # [Linked in Engineering](https://engineering.linkedin.com/blog)
 
-## **[Why am I seeing this ad?](https://engineering.linkedin.com/blog/2022/why-am-i-seeing-this-ad-)**
+## [Why am I seeing this ad?](https://engineering.linkedin.com/blog/2022/why-am-i-seeing-this-ad-)
 
 | 게시일 | 분류 | 주요 기술 |
 | --- | --- | --- |
@@ -175,7 +175,7 @@ ANN이 등장하며 KNN을 실시간으로 수행할 수 있다. KNN을 실시�
 
 링크드인의 기능 Why am I seeing this ad? 기능의 동작 방법. 데이터 조회, 표준화, 조인(매핑), 번역 등
 
-## **[Near real-time features for near real-time personalization](https://engineering.linkedin.com/blog/2022/near-real-time-features-for-near-real-time-personalization)**
+## [Near real-time features for near real-time personalization](https://engineering.linkedin.com/blog/2022/near-real-time-features-for-near-real-time-personalization)
 
 | 게시일 | 분류 | 주요 기술 |
 | --- | --- | --- |
