@@ -1,7 +1,7 @@
 ---
 layout: single
 title: \[기술블로그\] 6월 2주 주간 기술블로그 Follow Up
-date: 2022-06-16 22:00:45.276129
+date: 2022-06-16 22:00:45.276129 +0900
 categories: engineering_blog_followup
 toc: true
 toc_sticky: true
