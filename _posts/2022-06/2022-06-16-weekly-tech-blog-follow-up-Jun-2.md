@@ -1,12 +1,16 @@
 ---
 layout: single
 title: \[기술블로그\] 6월 2주 주간 기술블로그 Follow Up
-date: 2022-06-16 22:00:45.276129 +0900
+date: 2022-06-16 22:15:34.218888 +0900
 categories: engineering_blog_followup
 toc: true
 toc_sticky: true
 toc_label: Contents
 ---
+
+2022-06-06 ~ 2022-06-12 기간에 포스팅 된 주요 기술 블로그의 포스팅을 공유합니다.
+
+F/U 하는 기술 블로그 목록은 [이 링크](https://cherrue.github.io/engineering_blog_followup/searchengine/FU-%EA%B8%B0%EC%88%A0-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%AA%A9%EB%A1%9D/)를 참고하세요.
 
 # [네이버 D2](https://d2.naver.com/d2.atom)
 
@@ -84,22 +88,6 @@ toc_label: Contents
 
 ---
 # [Linked in Engineering](https://engineering.linkedin.com/blog.rss.html)
-
-## [Towards data quality management at LinkedIn](https://engineering.linkedin.com/blog/2022/towards-data-quality-management-at-linkedin)
-
- Data is at the heart of all our products and decisions at LinkedIn and the quality of our data is vital to our success
-
- The following figures show the actual arrival time and data volume of a dataset that is being consumed by the AI use case
-
- The previous three steps compose the data health monitoring services and automatically discovers all of the datasets in the ecosystem and collects their data quality metrics
-
-## [Overcoming challenges with Linux cgroups memory accounting](https://engineering.linkedin.com/blog/2022/overcoming-challenges-with-linux-cgroups-memory-accounting)
-
- The dip in cache usage by the application cgroup is due to a restart
-
- But this time the application cgroup memory is wrong
-
- This is because the pages for the index are already in memory but the new application cgroup is not accounting for this
 
 ---
 # [Engineering at Meta](https://engineering.fb.com/feed/)
