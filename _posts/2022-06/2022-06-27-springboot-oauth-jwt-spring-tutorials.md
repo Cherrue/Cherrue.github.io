@@ -1,7 +1,7 @@
 ---
 layout: single
 title: \[Springboot\] OAuth2 와 JWT (2) SNS 연동 구현
-date: 2022-06-27 07:57:31.504803 +0900
+date: 2022-06-27 07:58:31.504803 +0900
 categories: springboot authentication
 toc: true
 toc_sticky: true
