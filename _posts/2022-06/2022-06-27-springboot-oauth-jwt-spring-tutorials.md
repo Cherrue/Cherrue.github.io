@@ -382,3 +382,5 @@ $.ajaxSetup({
 이후 튜토리얼에서는 oauth client 추가(Google), error 페이지 추가를 다룹니다. 궁금하시다면 튜토리얼로.
 
 다음 Step으로 SNS 로 회원가입을 지원하기 위해 DB를 연결하고 SNS 로그인 정보를 저장하겠습니다.
+
+[다음 글 : \[Springboot\] OAuth2 와 JWT (3) database 연결](https://cherrue.github.io/springboot/authentication/springboot-oauth-jwt-spring-database/)
