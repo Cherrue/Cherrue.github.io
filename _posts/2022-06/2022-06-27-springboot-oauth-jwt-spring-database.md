@@ -466,3 +466,7 @@ public class CustomOAuth2UserService implements OAuth2UserService<OAuth2UserRequ
 여기까지 잘 되었는지 테스트 : 로그인 정상 동작. 로그인 성공 후 h2-console에서 저장된 데이터 확인
 
 ![12_h2_select_data.png](/assets/images/2022-06/27/12_h2_select_data.png)
+
+이번 장에서 저장한 회원 정보를 이용해 다음 편에서는 JWT 세션 유지를 구현하겠습니다.
+
+[다음 글 : \[Springboot\] OAuth2 와 JWT (4) 세션 유지(JWT)](https://cherrue.github.io/springboot/authentication/springboot-oauth-jwt-jwt/)
