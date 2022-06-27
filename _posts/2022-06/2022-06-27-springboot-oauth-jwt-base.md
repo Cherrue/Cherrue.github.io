@@ -147,3 +147,5 @@ JWT는 세션저장소 없이 stateless 하게 처리할 수 있어 많이 쓰�
 
 
 여기까지 oauth와 jwt 개념을 살펴보았고 다음 편부터 springboot에서 oauth와 Jwt를 이용해 인증을 구현해보도록 하겠습니다.
+
+[다음 글 : \[Springboot\] OAuth2 와 JWT (2) SNS 연동 구현](https://cherrue.github.io/springboot/authentication/springboot-oauth-jwt-spring-tutorials/)
