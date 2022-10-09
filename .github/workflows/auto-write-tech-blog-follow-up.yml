@@ -1,0 +1,41 @@
+# This is a basic workflow that is manually triggered
+
+name: Auto write tech blog follow up
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on:
+  schedule:
+    - cron: "1 0 * * 1"
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+
+  deploy:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install feedparser
+        pip install textrankr
+        pip install konlpy
+    - name: Create post
+      run: |
+        python automated/weekly/tech_blog/main.py
+    - name: Commit post
+      run: |
+        git pull
+        git add .
+        git diff
+        git config --local user.email "th885172@gmail.com@dont_save_commit_log"
+        git config --local user.name "Cherrue@dont_save_commit_log"
+        git commit -m "[Auto Update] weekly tech blog follow up posting added"
+        git push
