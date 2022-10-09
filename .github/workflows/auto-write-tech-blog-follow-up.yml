@@ -37,6 +37,7 @@ jobs:
         pip install feedparser
         pip install textrankr
         pip install konlpy
+        pip install bs4
     - name: Create post
       run: |
         python automated/weekly/tech_blog/main.py
