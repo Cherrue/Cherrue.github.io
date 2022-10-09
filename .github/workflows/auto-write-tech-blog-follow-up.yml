@@ -37,7 +37,6 @@ jobs:
         pip install feedparser
         pip install bs4
         pip install requests
-        pip install re
         pip install textrankr
         pip install typing
         pip install konlpy
