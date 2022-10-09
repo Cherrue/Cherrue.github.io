@@ -34,7 +34,6 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install string
         pip install feedparser
         pip install bs4
         pip install requests
