@@ -9,8 +9,8 @@ from konlpy.tag import Okt
 from datetime import datetime, date, timedelta
 import csv
 
-TARGET_BLOG_LIST_FILE_URL = "./target_blog_list.csv"
-POST_PATH = "../../../_posts/weekly-tech-blog/"
+TARGET_BLOG_LIST_FILE_URL = "automated/weekly/tech_blog/target_blog_list.csv"
+POST_PATH = "_posts/weekly-tech-blog/"
 PERIOD_PARSING = 7
 NUM_SUMMARIZED_SENTENCE = 3
 
