@@ -41,6 +41,7 @@ jobs:
         pip install typing
         pip install konlpy
         pip install datetime
+        pip install scipy
     - name: Create post
       run: |
         python automated/weekly/tech_blog/main.py
