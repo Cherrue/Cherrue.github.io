@@ -16,8 +16,9 @@
 
 ## Schedules
 
-1 0 * * 1
-매주 월요일 00시 01분 실행
+내 포스트보다 자동 포스트가 더 많아서 Github Action 에서 Workflow Disable 
+~~1 0 * * 1~~
+~~매주 월요일 00시 01분 실행~~
 
 ## Flows
 
